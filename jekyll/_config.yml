@@ -26,7 +26,7 @@ title:
 #   Google search results) and in your feed.xml site description.
 # baseurl: '/startjekyll'
 # url: 'https://taniarascia.github.io'
-baseurl: ''
+baseurl: 'jekyll'
 url: 'https://zhangbingliang2019.github.io/'
 # twitter_username: jekyllrb
 # github_username:  jekyll
