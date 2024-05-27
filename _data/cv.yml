@@ -1,0 +1,36 @@
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Computer Science
+      institution: California Institute of Technology, Pasadena, US
+      year: 2023 - present
+      # description:
+      #   - Advised by Katie Bouman
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
+    - title: B.S. in Computer Science
+      institution: Tsinghua University, Beijing, China
+      year: 2019 - 2023
+      # description:
+      #   - Special CS Pivot Class
+      #   - 
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
