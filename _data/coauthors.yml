@@ -15,5 +15,42 @@
     url: https://richzhang.github.io/
 
 "wu":
-  - firstname: ["Yi, Y."]
+  - firstname: ["Yi", "Y."]
     url: https://jxwuyi.weebly.com/
+
+"bouman":
+  - firstname: ["Katie", "K.", "Katherine"]
+    url: http://users.cms.caltech.edu/~klbouman/
+
+"yue":
+  - firstname: ["Yisong", "Y."]
+    url: http://www.yisongyue.com/
+
+"anandkumar":
+  - firstname: ["Anima", "A.", "Animashree"]
+    url: https://tensorlab.cms.caltech.edu/users/anima/
+
+
+
+# coauthor
+
+"zheng":
+  - firstname: ["Hongkai", "H."]
+    url: https://devzhk.myportfolio.com/
+
+"chu":
+  - firstname: ["Wenda", "W."]
+    url: https://wendachu.github.io/
+
+"wu":
+  - firstname: ["Zihui", "Z."]
+    url: https://zihuiwu.github.io/
+
+"feng":
+  - firstname: ["Berthy", "B."]
+    url: https://www.berthyfeng.com/
+
+"kumari":
+  - firstname: ["Nupur", "N."]
+    url: https://nupurkmr9.github.io/
+
