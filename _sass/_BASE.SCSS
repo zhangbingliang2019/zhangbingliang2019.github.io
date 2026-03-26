@@ -729,6 +729,12 @@ footer.sticky-bottom {
         }
       }
 
+      .co-first-note {
+        font-size: 0.875rem;
+        color: var(--global-text-color-light);
+        margin-top: 2px;
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);

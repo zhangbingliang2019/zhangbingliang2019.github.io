@@ -68,8 +68,14 @@
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
+      {% assign has_co_first = false %}
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
+        {% assign author_is_co_first = false %}
+        {% if author.last contains '*' %}
+          {% assign author_is_co_first = true %}
+          {% assign has_co_first = true %}
+        {% endif %}
         {%- assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' -%}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
@@ -94,17 +100,17 @@
         {%- if author_is_self -%}
           <em>
             {{- author.first }}
-            {{ author.last -}}
-          </em>
+            {{ author_last_name -}}
+          </em>{%- if author_is_co_first -%}<sup>*</sup>{%- endif -%}
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
               {{- author.first }}
-              {{ author.last -}}
-            </a>
+              {{ author_last_name -}}
+            </a>{%- if author_is_co_first -%}<sup>*</sup>{%- endif -%}
           {%- else -%}
             {{- author.first }}
-            {{ author.last -}}
+            {{ author_last_name -}}{%- if author_is_co_first -%}<sup>*</sup>{%- endif -%}
           {% endif %}
         {%- endif -%}
       {% endfor %}
@@ -141,6 +147,9 @@
         >
           {{- more_authors_hide -}}
         </span>
+      {% endif %}
+      {% if has_co_first %}
+        <div class="co-first-note">* Equal contribution</div>
       {% endif %}
     </div>
 

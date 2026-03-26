@@ -1,6 +1,20 @@
+@inproceedings{zhang2026speediff,
+  title={SpeeDiff: Scalable Pixel-Anchored End-to-End Latent Diffusion Model},
+  author={Zhang, Bingliang and Chu, Wenda and Li, Yizhuo and Yang, Linjie and Yue, Yisong and Bouman, Katherine L. and Song, Yang and Guo, Qiushan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2026},
+  bibtex_show={true},
+  tag1={CVPR 2026},
+  note={Coming Soon},
+  abstract={We present Scalable Pixel-anchored End-to-end Diffusion (SpeeDiff), a latent diffusion method that jointly trains the VAE and the diffusion model from scratch. In principle, joint training allows the diffusion loss gradient to directly guide the VAE encoder, encouraging the formation of a generation-friendly latent space and potentially yielding faster convergence than the conventional two-stage approach with a pretrained frozen VAE. However, a naive end-to-end implementation severely degrades performance, as unrestricted backpropagation of the diffusion loss leads to latent space collapse. Our main technical contribution is a simple yet effective Tweedie Pixel Reconstruction (TPR) loss, which provides additional pixel-level feedback by decoding a predicted clean latent from an intermediate noisy state using Tweedie's formula, thereby alleviating collapse. Furthermore, our method enables jointly scaling a fully transformer-based architecture and enhances representation alignment within the end-to-end framework. Our SpeeDiff-XL model achieves over 140× and 61× faster training compared to Vanilla SiT and REPA, respectively, while attaining an FID of 1.50 without guidance on ImageNet 256×256 generation. With a more efficient 32× compressed VAE, our model further reaches an FID of 1.53 without guidance on ImageNet 512×512 generation.},
+  preview={speediff.png},
+  selected={true}
+}
+
+
 @article{zhang2025step,
   title={STeP: A General and Scalable Framework for Solving Video Inverse Problems with Spatiotemporal Diffusion Priors},
-  author={Zhang, Bingliang and Wu, Zihui and Feng, Berthy T. and Song, Yang and Yue, Yisong and Bouman, Katherine L.},
+  author={Zhang*, Bingliang and Wu*, Zihui and Feng, Berthy T. and Song, Yang and Yue, Yisong and Bouman, Katherine L.},
   journal={arXiv preprint arXiv:2504.07549},
   year={2025},
   bibtex_show={true},
@@ -16,7 +30,7 @@
 
 @inproceedings{zhang2025improving,
   title={Improving diffusion inverse problem solving with decoupled noise annealing},
-  author={Zhang, Bingliang and Chu, Wenda and Berner, Julius and Meng, Chenlin and Anandkumar, Anima and Song, Yang},
+  author={Zhang*, Bingliang and Chu*, Wenda and Berner, Julius and Meng, Chenlin and Anandkumar, Anima and Song, Yang},
   booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
   pages={20895--20905},
   year={2025},
@@ -33,7 +47,7 @@
 
 @inproceedings{zhenginversebench,
   title={InverseBench: Benchmarking Plug-and-Play Diffusion Models for Scientific Inverse Problems},
-  author={Zheng, Hongkai and Chu, Wenda and Zhang, Bingliang and Wu, Zihui and Wang, Austin and Feng, Berthy and Zou, Caifeng and Sun, Yu and Kovachki, Nikola Borislavov and Ross, Zachary E and others},
+  author={Zheng*, Hongkai and Chu*, Wenda and Zhang*, Bingliang and Wu*, Zihui and Wang, Austin and Feng, Berthy and Zou, Caifeng and Sun, Yu and Kovachki, Nikola Borislavov and Ross, Zachary E and others},
   booktitle={The Thirteenth International Conference on Learning Representations},
   year={2025},
   bibtex_show={true},
