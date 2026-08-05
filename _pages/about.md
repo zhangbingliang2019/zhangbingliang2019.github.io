@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a third-year Ph.D. student at [Caltech](https://www.caltech.edu/) in the CMS department. I am advised by [Yisong Yue](http://www.yisongyue.com/index.php) and have worked with [Katie Bouman](http://users.cms.caltech.edu/~klbouman/) and [Yang Song](https://yang-song.net/). My research focuses on efficient pre-training and inference time algorithms for generation, which I have applied to real-world tasks like personalized generation and scientific inverse problems.
+I am a third-year Ph.D. student at [Caltech](https://www.caltech.edu/) in the CMS department. I am advised by [Yisong Yue](http://www.yisongyue.com/index.php) and have worked with [Yang Song](https://yang-song.net/). My research focuses on efficient pre-training and inference time algorithms for generation, which I have applied to real-world tasks like personalized generation and scientific inverse problems.
 
 I earned my B.S. in Computer Science from the [Yao Class](https://iiis.tsinghua.edu.cn/en/yaoclass/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I had the privilege of working with [Yi Wu](https://jxwuyi.weebly.com/) and [Yang Gao](https://yang-gao.weebly.com/). Before my Ph.D., I visited [Carnegie Mellon University](https://www.cmu.edu/), where I worked with [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), and [Richard Zhang](https://richzhang.github.io/) on controllable diffusion models.
 
